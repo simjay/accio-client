@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 NAME = "accio-client"
-VERSION = "0.0.1"
+VERSION = "0.0.2"
 DESCRIPTION = "Accessible IO Client Tool"
 LONG_DESCRIPTION = """
 Accessible IO Client Tool
