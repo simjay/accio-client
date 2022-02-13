@@ -14,12 +14,12 @@ ENTRY_POINTS = {
 }
 AUTHOR = "Jaehyun Sim"
 AUTHOR_EMAIL = "simjay@simjay.com"
-KEYWORD = "accio, accessible, io"
+KEYWORDS = "accio, accessible, io"
 LICENSE = "Apache License 2.0"
 URL = "https://github.com/simjay/accio-client"
 DOWNLOAD_URL = f"{URL}/archive/refs/tags/v{VERSION}.tar.gz"
 CLASSIFIERS = [
-    "Development Status :: 3 - Alpha"
+    "Development Status :: 3 - Alpha",
     "License :: OSI Approved :: Apache Software License",
     "Natural Language :: English",
     "Programming Language :: Python :: 3",
@@ -30,21 +30,20 @@ PYTHON_REQUIRES = ">=3.6"
 with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
-setup (
+setup(
     name=NAME,
     version=VERSION,
     description=DESCRIPTION,
-    long_description=LONG_DESCRIPTION
-    packages = find_packages(),
+    long_description=LONG_DESCRIPTION,
+    packages=find_packages(),
     install_requires=requirements,
     python_requires=PYTHON_REQUIRES,
     entry_points=ENTRY_POINTS,
     author=AUTHOR,
-    keyword=KEYWORD,
+    keywords=KEYWORDS,
     license=LICENSE,
     url=URL,
     download_url=DOWNLOAD_URL,
-    dependency_links=dependency_links,
     author_email=AUTHOR_EMAIL,
-    classifiers=CLASSIFIERS
+    classifiers=CLASSIFIERS,
 )
