@@ -17,9 +17,9 @@ AUTHOR_EMAIL = "simjay@simjay.com"
 KEYWORD = "accio, accessible, io"
 LICENSE = "Apache License 2.0"
 URL = "https://github.com/simjay/accio-client"
-DOWNLOAD_URL = ""
+DOWNLOAD_URL = f"{URL}/archive/refs/tags/v{VERSION}.tar.gz"
 CLASSIFIERS = [
-    "Development Status :: 3 - Alpha",
+    "Development Status :: 3 - Alpha"
     "License :: OSI Approved :: Apache Software License",
     "Natural Language :: English",
     "Programming Language :: Python :: 3",
