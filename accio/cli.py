@@ -43,7 +43,7 @@ def help(context):
     click.echo(context.parent.get_help())
 
 
-main.add_command(help)
+accio.add_command(help)
 
 
 def main():
